@@ -1,0 +1,25 @@
+{
+  "name": "activemq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc -p .",
+    "producer": "ts-node src/modules/producer.ts",
+    "consumer": "ts-node src/modules/consumer.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@stomp/stompjs": "^7.0.0",
+    "dotenv": "^16.0.3",
+    "stompjs": "^2.3.3",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "@types/stompjs": "^2.3.5",
+    "ts-node": "^10.9.1"
+  }
+}
